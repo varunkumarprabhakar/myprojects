@@ -1,6 +1,3 @@
-# Text analysis using Natural Language processing NLTK libraries
-
-#Text analysis using local text file
 import nltk
 import string
 from collections import Counter

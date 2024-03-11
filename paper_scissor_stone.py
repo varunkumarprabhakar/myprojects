@@ -1,4 +1,4 @@
-
+import random
 def game(choice1,ran):
 
     match(choice1):
@@ -32,4 +32,16 @@ def game(choice1,ran):
         print("match Draw")
     else:
         print("i win")
+
+bot=[1,2,3]
+try:
+    print("Enter 1 for rock,2 for paper,3 for scissor")
+    choice1=int(input("enter your choice = "))
+    ran=int(random.choice(bot))
+    game(choice1,ran)
+except:
+    print("Well played")
+finally:
+    print("--------- -----------------------------keep playing----------------------")
+    
  
